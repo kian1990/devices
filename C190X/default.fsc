@@ -1,0 +1,26 @@
+setLoaderConfig:00 01 00 00 00 0C
+openTA:2
+setFlashState:1
+closeTA:
+uploadImage:partition
+openTA:2
+uploadImage:cache
+uploadImage:fotakernel
+uploadImage:kernel
+uploadImage:modem_fs1
+uploadImage:modem_fs2
+uploadImage:modem
+uploadImage:rpm
+closeTA:
+openTA:2
+uploadImage:userdata
+uploadImage:system
+closeTA:
+openTA:2
+uploadImage:elabel
+closeTA:
+openTA:2
+setFlashTimestamp:
+setFlashState:0
+closeTA:
+End flashing:
